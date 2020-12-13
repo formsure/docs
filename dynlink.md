@@ -2,7 +2,7 @@
 
 With dynamic links you can create personalised Form links which you can send to a person or use it in a particular place to track the response separately. Dynamic links can be created from your Workflow page or via API.
 
-Make sure you have read our [API Quickstart](/dev) and obtained your keys and learned to authenticate with formsure via http requests.
+Make sure you have read our [API Quickstart](/dev) and obtained your keys and learned to authenticate with Formsure via http requests.
 
 ## Creating a dynamic link
 
@@ -64,7 +64,7 @@ Possible reasons are,
 -   Authentication headers are not present
 -   Authentication header values are wrong
 
-#### Bad paramters
+#### Bad parameters
 
 If any of your parameters are wrong you will corresponding error messages like the following.
 
