@@ -39,6 +39,18 @@
             article h2 {
                 font-size: 1.8rem !important;
             }
+            @media only screen and (max-width: 600px) {
+                .markdown-section {
+                    max-width: 95% !important;
+                    padding: 30px 10px 40px;
+                }
+                body.sticky .sidebar-toggle {
+                    top: 0;
+                    left: 0;
+                    padding-top: 13px;
+                    bottom: unset;
+                }
+            }
         </style>
     </head>
     <body>
