@@ -2,7 +2,6 @@
 
 -   **Get started**
 -   [Introduction](/)
--   [Getting Started](getstart.md 'Getting Started')
 -   **Platform**
 -   [Concepts](platform.md 'Platform')
 -   **Developers**

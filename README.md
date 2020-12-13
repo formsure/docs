@@ -16,7 +16,13 @@ Once you create your form you can go ahead and add a few questions to the form. 
 
 We also offer dynamic links, which is useful for tracking down a specific response to a particular form. Dynamic Links are available as an API to integrate with your existing project. Checkout [Dynamic Link API](/dynlink)
 
+### Share your form <!-- {docsify-ignore} -->
+
 ![share formsure form](/images/share.png)
+
+### Embed your form <!-- {docsify-ignore} -->
+
+![Embed formsure form](/images/embed.png)
 
 ## View Results
 
