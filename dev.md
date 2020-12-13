@@ -1,10 +1,10 @@
 # API Integration
 
-Formsure offers whide range of customisable interactive elements to offer in a form as well as many integrations like webhook, email automation and Zapier. Formsure offers Form level access to each of your forms. You can access your `accessKey` and `formToken` from workflow page of your form.
+Formsure offers wide range of customisable interactive elements to offer in a form as well as many integrations like webhook, email automation and Zapier. Formsure offers Form level access to each of your forms. You can access your `accessKey` and `formToken` from workflow page of your form.
 
 ## Endpoint
 
-Your api access point will be; will be reffering to this as `apiEndpoint`
+Your api access point will be; will be referring to this as `apiEndpoint`
 
 ```text
 https://api.formsure.io/api/v1

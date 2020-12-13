@@ -1,6 +1,6 @@
 # Dynamic Links
 
-With dynamic links you can create personalised Form links which you can send to a person or use it in a particular palce to track the reponce seperately. Dynamic links can be created from your Workflow page or via API.
+With dynamic links you can create personalised Form links which you can send to a person or use it in a particular place to track the response separately. Dynamic links can be created from your Workflow page or via API.
 
 Make sure you have read our [API Quickstart](/dev) and obtained your keys and learned to authenticate with formsure via http requests.
 
@@ -21,7 +21,7 @@ curl --request POST \
 
 ### On Success
 
-If your call is successful you get reponse like the following
+If your call is successful you get response like the following
 
 ```json
 {
@@ -66,7 +66,7 @@ Possible reasons are,
 
 #### Bad paramters
 
-If any of your paramters are wrong you will curresponding error messages like the following.
+If any of your parameters are wrong you will corresponding error messages like the following.
 
 ```json
 {
