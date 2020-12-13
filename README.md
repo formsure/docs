@@ -12,6 +12,12 @@ Creating a form is very easy with Formsure. You can create one free account with
 
 ## Collecting Responses
 
-Once you create your form you can go ahead and add a few questions to the form. Formsure have many different question types to chose from.
+Once you create your form you can go ahead and add a few questions to the form. Formsure have many different question types to chose from. After that you can publish the form from the top right corner and collect your unique URL from Share page. You can also share to various social media from Share page itself.
+
+We also offer dynamic links, which is useful for tracking down a specific response to a particular form. Dynamic Links are available as an API to integrate with your existing project. Checkout [Dynamic Link API](/dynlink)
+
+![share formsure form](/images/share.png)
 
 ## View Results
+
+Once you have received some responses for your form you can see them on the Results page. From the results page you can export, search, print and delete individual response.
