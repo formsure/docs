@@ -39,7 +39,7 @@ Accept-Encoding: gzip,deflate
   "form": {
     "id": "5bc65f8d8786a2c430783c94",
     "name": "Beta Invites",
-    "slug": "beta-invites"
+    "slug": "UJ7lxE11kU"
   }
 }
 ```
