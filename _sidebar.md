@@ -9,3 +9,4 @@
 -   [Integrations](dev.md)
 -   [Dynamic Links](dynlink.md)
 -   [Webhooks](webhook.md)
+-   [Content Security Policy](csp.md)
