@@ -22,12 +22,12 @@ If you need to make a test URL – to collect test submissions – you can do th
 
 ## Example POST Data
 
-```
+```json
 POST https://your-webhook.com/form-submission HTTP/1.1
 Content-Type: application/json
 User-Agent: Formsure-Webhook/1.0
 X-Webhook-Secret: viQsuq-vofbu1-goftyb
-Accept-Encoding: gzip,deflate
+
 {
   "formName": "Workflow test",
   "submission": [
@@ -37,7 +37,7 @@ Accept-Encoding: gzip,deflate
     },
     {
       "question": "Your message",
-      "answer": "hello there how are you?"
+      "answer": "Hello there, how are you?"
     }
   ],
   "meta": {
