@@ -5,6 +5,7 @@
 -   **Platform**
 -   [Concepts](platform.md)
 -   [Fields](fields.md)
+-   [GDPR](gdpr.md)
 -   **Developers**
 -   [Integrations](dev.md)
 -   [Dynamic Links](dynlink.md)
