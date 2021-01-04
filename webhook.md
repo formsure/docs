@@ -12,7 +12,7 @@ Webhook notifications are sent via HTTP `POST` request, and the request body (co
 
 ## Setup guide
 
-If you need to make a test URL – to collect test submissions – you can do this at https://requestbin.com.
+If you need to make a test URL – to collect test submissions – you can do this at https://requestbin.net.
 
 1. Open Workflows page of your form
 2. Click Add a webhook:
@@ -25,21 +25,24 @@ If you need to make a test URL – to collect test submissions – you can do th
 ```
 POST https://your-webhook.com/form-submission HTTP/1.1
 Content-Type: application/json
-User-Agent: Formium-Webhook/1.0
+User-Agent: Formsure-Webhook/1.0
+X-Webhook-Secret: viQsuq-vofbu1-goftyb
 Accept-Encoding: gzip,deflate
 {
-  "submission": {
-    "id": "5cdede61235159573c8dd7e7",
-    "data": {
-      "message": "Hello world!"
+  "formName": "Workflow test",
+  "submission": [
+    {
+      "question": "What is your name",
+      "answer": "nikhil mohan"
     },
-    "ip": "0:0:0:0:0:0:0:1",
-    "createAt": "2019-05-17T16:16:33.931Z"
-  },
-  "form": {
-    "id": "5bc65f8d8786a2c430783c94",
-    "name": "Beta Invites",
-    "slug": "UJ7lxE11kU"
+    {
+      "question": "Your message",
+      "answer": "hello there how are you?"
+    }
+  ],
+  "meta": {
+    "formId": "5ff28998c4b65982xxxxx",
+    "formSlug": "FXsPbpxxx"
   }
 }
 ```
