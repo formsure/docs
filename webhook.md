@@ -18,7 +18,6 @@ If you need to make a test URL – to collect test submissions – you can do th
 2. Click Add a webhook:
 3. Enter a Destination URL. (This is where we will make HTTP POST requests to):
 4. Now click Save webhook, and you’ll be taken back to the webhooks tab. By default your new webhook will be set to OFF until you turn it on by clicking the toggle.
-5. To test your webhook, click the View deliveries button, followed by the Send test request button that appears:
 
 ## Example POST Data
 
@@ -26,27 +25,53 @@ If you need to make a test URL – to collect test submissions – you can do th
 POST https://your-webhook.com/form-submission HTTP/1.1
 Content-Type: application/json
 User-Agent: Formsure-Webhook/1.0
-X-Webhook-Secret: viQsuq-vofbu1-goftyb
+X-Formsure-Payload-Signature: fffe04bc29239452feb4aad9255dbde6cb20810a
 
 {
   "formName": "Workflow test",
   "submission": [
     {
       "question": "What is your name",
-      "answer": "John Doe"
+      "answer": "Workflow"
     },
     {
       "question": "Your message",
-      "answer": "Hello there, how are you?"
+      "answer": "Workflow Workflow Workflow"
     }
   ],
   "meta": {
-    "formId": "5ff28998c4b65982xxxxx",
-    "formSlug": "FXsPbpxxx"
+    "formId": "5ff28998c4b65982ead3xxxx",
+    "formSlug": "FXsPbpxxxx",
+    "createdAt": "2021-01-05T06:03:39.504Z",
+    "eventId": "KqCbeRgKCexxxx"
   }
 }
 ```
 
+## Webhooks signature
+
+You will get a header named `X-Formsure-Payload-Signature` with [`HMAC`](https://en.wikipedia.org/wiki/HMAC) signed version of your payload with the `Secret` you have given in the webhook add form in the Formsure dashboard.
+
+### Verifying signature
+
+Nodejs example code for verifying the request payload is as follows
+
+```javascript
+'use strict'
+const crypto = require('crypto')
+
+let payloadSig = crypto
+    .createHmac('sha1', WEBHOOK_SECRET)
+    .update(REQUEST.DATA)
+    .digest('hex')
+let isValidSig =
+    payloadSig === REQUEST.HEADERS['x-formsure-payload-signature']
+        ? 'Valid'
+        : 'Not valid'
+
+console.log(isValidSig)
+```
+
 ## Failure behaviour
 
-We will retry a Webhook maximum of 3 times, if the request end up a non `2xx` response from your server. You can always manually trigger the Webhook from the dashboard.
+We will retry a Webhook maximum of 3 times, if the request end up a non `2xx` response from your server.
