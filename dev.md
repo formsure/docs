@@ -20,4 +20,4 @@ Content-Type: application/json
 
 ## Authentication
 
-You should authenticate all of your api calls by providing `x-fromsure-accesskey` and `x-formsure-formtoken` in your request headers.
+You should authenticate all of your api calls by providing `x-formsure-accesskey` and `x-formsure-formtoken` in your request headers.

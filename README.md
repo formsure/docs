@@ -1,4 +1,4 @@
-# Fromsure
+# Formsure
 
 > Create surveys, polls, and quizzes and get feedback at ease. With Formsure you can automate most of your surveys and polls.
 

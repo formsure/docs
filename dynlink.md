@@ -15,7 +15,7 @@ curl --request POST \
   --url $apiEndpoint/dynamiclink \
   --header 'Content-Type: application/json' \
   --header 'x-formsure-formtoken: $x-formsure-formtoken' \
-  --header 'x-fromsure-accesskey: $x-fromsure-accesskey' \
+  --header 'x-formsure-accesskey: $x-formsure-accesskey' \
   --data '{"uniqId": "1001"}'
 ```
 
