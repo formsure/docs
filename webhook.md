@@ -25,25 +25,29 @@ If you need to make a test URL – to collect test submissions – you can do th
 POST https://your-webhook.com/form-submission HTTP/1.1
 Content-Type: application/json
 User-Agent: Formsure-Webhook/1.0
-X-Formsure-Payload-Signature: fffe04bc29239452feb4aad9255dbde6cb20810a
+X-Formsure-Payload-Signature: a9691345e11a9f33f2c8d81500c2a7773a746cb0
 
 {
-  "formName": "Workflow test",
+  "submissionId": "5ff9da9aeb0d450xxxxxx",
   "submission": [
     {
-      "question": "What is your name",
-      "answer": "Workflow"
+      "question": "When you first used the product, what was your overall impression of it?",
+      "answer": 5
     },
     {
-      "question": "Your message",
-      "answer": "Workflow Workflow Workflow"
+      "question": "What do you like most about it?",
+      "answer": "When you first used the product, what was your overall impression of it?\n"
+    },
+    {
+      "question": "If you could buy the product today, would you?",
+      "answer": "No"
     }
   ],
   "meta": {
-    "formId": "5ff28998c4b65982ead3xxxx",
-    "formSlug": "FXsPbpxxxx",
-    "createdAt": "2021-01-05T06:03:39.504Z",
-    "eventId": "KqCbeRgKCexxxx"
+    "formId": "5ff28998c4b659820xxxxxx",
+    "formName": "Workflow automation",
+    "formSlug": "FXsPbpvsxx",
+    "createdAt": "2021-01-09T16:35:55.048Z"
   }
 }
 ```
