@@ -79,3 +79,7 @@ console.log(isValidSig)
 ## Failure behaviour
 
 We will retry a Webhook maximum of 3 times, if the request end up a non `2xx` response from your server.
+
+We also have a timeout of `3000ms` if your web server failed to reply.
+
+&nbsp;
