@@ -65,13 +65,13 @@ Nodejs example code for verifying the request payload is as follows
 const crypto = require('crypto')
 
 let payloadSig = crypto
-    .createHmac('sha1', WEBHOOK_SECRET)
-    .update(REQUEST.DATA)
-    .digest('hex')
+  .createHmac('sha1', WEBHOOK_SECRET)
+  .update(REQUEST.DATA)
+  .digest('hex')
 let isValidSig =
-    payloadSig === REQUEST.HEADERS['x-formsure-payload-signature']
-        ? 'Valid'
-        : 'Not valid'
+  payloadSig === REQUEST.HEADERS['x-formsure-payload-signature']
+    ? 'Valid'
+    : 'Not valid'
 
 console.log(isValidSig)
 ```

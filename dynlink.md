@@ -25,15 +25,15 @@ If your call is successful you get response like the following
 
 ```json
 {
-    "response": {
-        "statusCode": 200,
-        "message": "Success",
-        "error": false,
-        "version": "0.1.x"
-    },
-    "data": {
-        "link": "https://app.formsure.co/d/r8nFykbfCIZY"
-    }
+  "response": {
+    "statusCode": 200,
+    "message": "Success",
+    "error": false,
+    "version": "0.1.x"
+  },
+  "data": {
+    "link": "https://app.formsure.co/d/r8nFykbfCIZY"
+  }
 }
 ```
 
@@ -49,20 +49,20 @@ If you provided any bad credentials in the headers or headers are missing you wi
 
 ```json
 {
-    "response": {
-        "statusCode": 400,
-        "message": "Unauthorized",
-        "error": true,
-        "version": "0.1.x"
-    },
-    "data": []
+  "response": {
+    "statusCode": 400,
+    "message": "Unauthorized",
+    "error": true,
+    "version": "0.1.x"
+  },
+  "data": []
 }
 ```
 
 Possible reasons are,
 
--   Authentication headers are not present
--   Authentication header values are wrong
+- Authentication headers are not present
+- Authentication header values are wrong
 
 #### Bad parameters
 
@@ -70,13 +70,13 @@ If any of your parameters are wrong you will corresponding error messages like t
 
 ```json
 {
-    "response": {
-        "statusCode": 422,
-        "message": "Email should match format \"email\"",
-        "error": true,
-        "version": "0.1.x"
-    },
-    "data": []
+  "response": {
+    "statusCode": 422,
+    "message": "Email should match format \"email\"",
+    "error": true,
+    "version": "0.1.x"
+  },
+  "data": []
 }
 ```
 

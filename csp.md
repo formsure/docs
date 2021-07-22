@@ -70,12 +70,12 @@ The first time CSP is rolled out, it is highly recommended to use it in report-o
 
 This means that the browser won't actually block any content, it'll only report. It's great for testing out a new policy.
 
--   [Netlify](https://content-security-policy.com/examples/netlify/)
--   [Github Pages](https://github.blog/2016-04-12-githubs-csp-journey/)
+- [Netlify](https://content-security-policy.com/examples/netlify/)
+- [Github Pages](https://github.blog/2016-04-12-githubs-csp-journey/)
 
 ## References
 
--   https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
--   https://en.wikipedia.org/wiki/Content_Security_Policy
--   https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP#Examples_Common_use_cases
--   https://csper.io/docs/content-security-policy
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
+- https://en.wikipedia.org/wiki/Content_Security_Policy
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP#Examples_Common_use_cases
+- https://csper.io/docs/content-security-policy
