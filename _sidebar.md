@@ -5,6 +5,7 @@
 - **Platform**
 - [Concepts](platform.md)
 - [Fields](fields.md)
+- [Widgets](widgets.md)
 - [GDPR](gdpr.md)
 - **Developers**
 - [Integrations](dev.md)

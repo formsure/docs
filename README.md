@@ -27,3 +27,5 @@ We also offer dynamic links, which is useful for tracking down a specific respon
 ## View Results
 
 Once you have received some responses for your form you can see them on the Results page. From the results page you can export, search, print and delete individual response.
+
+![results](/images/results.png)
