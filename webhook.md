@@ -32,15 +32,21 @@ X-Formsure-Payload-Signature: a9691345e11a9f33f2c8d81500c2a7773a746cb0
   "submission": [
     {
       "question": "When you first used the product, what was your overall impression of it?",
-      "answer": 5
+      "answer": 5,
+      "type": "number",
+      "id": "5Dxxx",
     },
     {
       "question": "What do you like most about it?",
-      "answer": "When you first used the product, what was your overall impression of it?\n"
+      "answer": "When you first used the product, what was your overall impression of it?\n",
+      "type": "long",
+      "id": "Cnxxx",
     },
     {
       "question": "If you could buy the product today, would you?",
-      "answer": "No"
+      "answer": "No",
+      "type": "yesorno",
+      "id": "sZxxx",
     }
   ],
   "meta": {
